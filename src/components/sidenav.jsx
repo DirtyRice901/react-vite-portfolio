@@ -19,19 +19,19 @@ const SideNav = () => {
             </a>
             <a href="#main" className="w-[75%] flex justify-center items-center rounded-full shadow-lg bg-gray-100 shadow-gray-400 m-2 p-4 cursor-pointer hover:scale-110 ease-in duration-200">
              <AiOutlineHome size={20}/> 
-             <span >Home</span>
+             <span >About Me</span>
             </a>
             <a href="#main" className="w-[75%] flex justify-center items-center rounded-full shadow-lg bg-gray-100 shadow-gray-400 m-2 p-4 cursor-pointer hover:scale-110 ease-in duration-200">
              <AiOutlineHome size={20}/> 
-             <span >Home</span>
+             <span >Portfolio</span>
             </a>
             <a href="#main" className="w-[75%] flex justify-center items-center rounded-full shadow-lg bg-gray-100 shadow-gray-400 m-2 p-4 cursor-pointer hover:scale-110 ease-in duration-200">
              <AiOutlineHome size={20}/> 
-             <span >Home</span>
+             <span >Contact</span>
             </a>
             <a href="#main" className="w-[75%] flex justify-center items-center rounded-full shadow-lg bg-gray-100 shadow-gray-400 m-2 p-4 cursor-pointer hover:scale-110 ease-in duration-200">
              <AiOutlineHome size={20}/> 
-             <span >Home</span>
+             <span >Resume</span>
             </a>
           </div>
         )
