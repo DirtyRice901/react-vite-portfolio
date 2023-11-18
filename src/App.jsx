@@ -1,11 +1,10 @@
 import { useState } from 'react'
-
-import './App.css'
+import SideNav from './components/sidenav'
 
 function App() {
   return (
     <div>
-
+      <SideNav />
     </div>
   )
 }

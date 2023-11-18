@@ -1,11 +1,10 @@
 import React from "react";
+import { AiOutlineMenu } from "react-icons/ai";
 
 const SideNav = () => {
   return (
-    <div className="Sidenav">
-      <a href="#">Home</a>
-      <a href="#">About</a>
-      <a href="#">Contact</a>
+    <div>
+      <AiOutlineMenu />
     </div>
   );
 };
