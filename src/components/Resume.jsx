@@ -49,7 +49,7 @@ const ResumeData = [
 const Resume = () => {
     return (
         <div id="resume" className="max-w-[1040px] m-auto md:pl-20 p-4 py-16">
-            <h1 className="text-4xl font-bold text-center text-green-400">Resume</h1>
+            <h1 className="text-4xl font-bold text-center text-[#001b5e]">Resume</h1>
             {ResumeData.map((item, index) => (
                 <ResumeItem 
                     key={index} 
