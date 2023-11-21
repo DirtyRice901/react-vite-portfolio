@@ -6,7 +6,8 @@ import Portfolio from './components/Portfolio'
 
 function App() {
   return (
-    <div>
+    
+    <div className='bg-blue-200/80'>
       <SideNav />
       <Header />
       <Resume />
