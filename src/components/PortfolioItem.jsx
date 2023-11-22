@@ -12,6 +12,15 @@ const PortfolioItem = ({img, title}) => {
                 <a href="/">
                     <p className="text-center p-3 rounded-lg bg-white text-gray-700 font-bold cursor-pointer text-lg">Details</p>
                 </a>
+                <a href="/">
+                    <p className="text-center p-3 rounded-lg bg-white text-gray-700 font-bold cursor-pointer text-lg">Details</p>
+                </a>
+                <a href="/">
+                    <p className="text-center p-3 rounded-lg bg-white text-gray-700 font-bold cursor-pointer text-lg">Details</p>
+                </a>
+                <a href="/">
+                    <p className="text-center p-3 rounded-lg bg-white text-gray-700 font-bold cursor-pointer text-lg">Details</p>
+                </a>
 
             </div>
         </div>
