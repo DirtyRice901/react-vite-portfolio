@@ -1,6 +1,6 @@
 import React from "react";
 
-const PortfolioItem = ({img, title}) => {
+const PortfolioItem = ({img, title, urls}) => {
     return (
         <div className="relative flex items-center justify-center h-full w-full shadow-xl shadow-gray=800 rounded-xl group hover:bg-gradient-to-r from-gray-200 to-[#001b5e]">
             <img src={img} alt="/" className="rounded-xl group-hover:opacity-10" />
@@ -9,6 +9,11 @@ const PortfolioItem = ({img, title}) => {
                     {title}
                 </h3>
                 <p className="pb-4 pt-2 text-white text-center">React Js</p>
+                {urls.map((url, index) => (
+                    <a href={url} key={index}>
+                        <p className="text-center p-3 rounded-lg bg-white text-gray-700 font-bold cursor-pointer text-lg">Details</p>
+                    </a>
+                ))}
                 <a href="/">
                     <p className="text-center p-3 rounded-lg bg-white text-gray-700 font-bold cursor-pointer text-lg">Details</p>
                 </a>
