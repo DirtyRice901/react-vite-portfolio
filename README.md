@@ -1,4 +1,4 @@
-# React Portfolio 
+# React + Vite Portfolio 
 
 ![licenseShield](https://img.shields.io/badge/license-MIT-yellow)
 
@@ -19,9 +19,13 @@
 
  __Rememember to ```npm init``` before installing these packages__
 
-* [express.js](https://www.npmjs.com/package/express)
+ __then run ```npm create vite@latest``` to install vite + react__
 
-* [Webpack-cli](https://www.npmjs.com/package/webpack-cli)
+ __Install TailwindsCSS for styling as follows:__ ```npm install -D tailwindcss
+npx tailwindcss init```
+ 
+
+* [vite](https://vitejs.dev/)
 
 * [ibd](https://www.npmjs.com/package/idb)
 
@@ -37,28 +41,21 @@
 
 * About Me Section: Provide information about the developer, including skills, experience, education, and any relevant certifications.
 
-* Contact Form: Allow visitors to send a message or inquiry directly from the website.
+* Contact Form: Allow visitors to send a message or inquiry directly from the website and stores data using getform.io.
 
-* Resume Download: Offer a downloadable version of the developer's resume.
-
-* Blog: If the developer writes articles or tutorials, these can be included in a blog section.
-
-* Search Functionality: Allow visitors to search for specific projects or blog posts.
-
-* Filter Functionality: Enable visitors to filter projects by technology or other criteria.
+* Resume displayed with a button on the sidenav.
 
 * Responsive Design: Ensure the portfolio is accessible and looks good on all device sizes.
 
-* Dark Mode: Provide a toggle for users to switch between light and dark modes.
-
-* Animations: Use animations for a more interactive user experience.
+* TypeAnimations: Use animations for a more interactive user experience.
 
 
 
 ## Usage
 
-Visit the app on Heroku
-[URL Link](https://pwa-text-editor901-332321d741be.herokuapp.com/)
+Visit the app on Netlify
+[URL Link](https://dirtyrice-react-vite-journey.netlify.app/)
+
 
 
 ## License
