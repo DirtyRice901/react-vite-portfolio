@@ -16,9 +16,9 @@ const Portfolio = () => {
             </p>
             <div className="grid sm:grid-cols-2 gap-12">
                 <PortfolioItem img={grabImg} title="Grab My Password App" urls={["https://grab-my-password-23e7faf05060.herokuapp.com/"]} />
-                <PortfolioItem img={reelImg} title="Reel Tracks App" urls={[]} />
-                <PortfolioItem img={textImg} title="PWA Text Editor App" urls={[]} />
-                <PortfolioItem img={passwordgenImg} title="Pass Genie" urls={[]} />
+                <PortfolioItem img={reelImg} title="Reel Tracks App" urls={["https://ricky-sama.github.io/Reel-Tracks/"]} />
+                <PortfolioItem img={textImg} title="PWA Text Editor App" urls={["https://pwa-text-editor901-332321d741be.herokuapp.com/"]} />
+                <PortfolioItem img={passwordgenImg} title="Pass Genie" urls={["https://dirtyrice901.github.io/Password-Generator/"]} />
             </div>
         </div>
     );
