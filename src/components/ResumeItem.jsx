@@ -1,5 +1,5 @@
 import React from "react";
-
+//////////////////// creates the resume section  with TailWinds CSS ////////////////////////////////////////////////////////////////////////////////////////////
 const Resumeitem = ({ year, title, duration, description }) => {
     return (
         <ol className="flex flex-col md:flex-row relative border-l border-stone-200">

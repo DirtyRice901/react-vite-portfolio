@@ -1,6 +1,7 @@
 import React from "react";
 
-const PortfolioItem = ({img, title, urls}) => {
+////////////// destructures the props from Portfolio.jsx ////////////////////////////////////////////////////////////////////////////////////////////
+const PortfolioItem = ({img, title, urls}) => { 
     return (
         <div className="relative flex items-center justify-center h-full w-full shadow-xl shadow-gray=400 rounded-xl group hover:bg-gradient-to-r from-gray-200 to-[#001b5e]">
             <img src={img} alt="/" className="rounded-xl group-hover:opacity-10" />
@@ -9,7 +10,7 @@ const PortfolioItem = ({img, title, urls}) => {
                     {title}
                 </h3>
                 <p className="pb-4 pt-2 text-white text-center">React Js</p>
-                {urls.map((url, index) => (
+                {urls.map((url, index) => ( ////////////// maps the urls to the portfolio items ////////////////////////////////////////////////////////////////////////////////////////////
                     <a href={url} key={index}>
                         <p className="text-center p-3 rounded-lg bg-white text-gray-700 font-bold cursor-pointer text-lg">Details</p>
                     </a>

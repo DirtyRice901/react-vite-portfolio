@@ -2,6 +2,7 @@ import React from "react";
 import { TypeAnimation } from "react-type-animation";
 import { FaSlack, FaGithub, } from "react-icons/fa";
 
+//////////////////// creates the header section with TailWinds CSS ////////////////////////////////////////////////////////////////////////////////////////////
 const Header = () => {
     return (
         <div id="header">
@@ -12,7 +13,7 @@ const Header = () => {
         <div className="max-w-[700px] m-auto h-full w-full flex flex-col justify-center  items-center ">
             <h1 className="sm:text-5xl text-4xl font-bold text-gray-200 text-center">I'm Kevin Rice</h1>
             <h2 className="flex sm:text-3xl text-gray-200">
-            <TypeAnimation
+            <TypeAnimation ////////////// creates the typing animation ////////////////////////////////////////////////////////////////////////////////////////////
                 splitter={(str) => str.split(/(?= )/)} // 'Lorem ipsum dolor' -> ['Lorem', ' ipsum', ' dolor']
                 sequence={[
                   'Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.',
@@ -49,8 +50,12 @@ const Header = () => {
             />    
             </h2>
             <div className="flex justify-between items-center pt-6 max-w-[80px] w-full text-gray-200">
-                <FaSlack className="cursor-pointer" size={20}/> 
-                <FaGithub className="cursor-pointer" size={20}/> 
+                <a href="https://app.slack.com/client/T056YAJ4MPF/D05D0V54751" target="_blank" rel="noopener noreferrer">
+                    <FaSlack className="cursor-pointer" size={20}/> 
+                </a>
+                <a href="https://github.com/DirtyRice901" target="_blank" rel="noopener noreferrer">
+                    <FaGithub className="cursor-pointer" size={20}/> 
+                </a> 
             </div>
 
         </div>
