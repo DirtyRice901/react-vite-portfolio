@@ -16,7 +16,7 @@ const Header = () => {
             <TypeAnimation ////////////// creates the typing animation ////////////////////////////////////////////////////////////////////////////////////////////
                 splitter={(str) => str.split(/(?= )/)} // 'Lorem ipsum dolor' -> ['Lorem', ' ipsum', ' dolor']
                 sequence={[
-                  'Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.',
+                  'I am an aspiring Full Stack Developer, inspired to learn and grow. My skills were developed at The University Of Central Florida Coding Bootcamp, where I learned to build full stack applications using React, Node, Express, and MongoDB. The pace of technology fascinates me and I enjoy learning new skills and building unique apps! The course was challenging and taught me the best practices and efficient time management in order to prepare me for working as a Web Development Engineer. I am currently looking for a position as a Full Stack Developer. ',
                   6000,
                   '',
                 ]}
