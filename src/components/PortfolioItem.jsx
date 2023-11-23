@@ -11,7 +11,7 @@ const PortfolioItem = ({img, title, urls}) => {
                 </h3>
                 <p className="pb-4 pt-2 text-white text-center">React Js</p>
                 {urls.map((url, index) => ( ////////////// maps the urls to the portfolio items ////////////////////////////////////////////////////////////////////////////////////////////
-                    <a href={url} key={index}>
+                    <a href={url} key={index} className="flex items-center justify-center">
                         <p className="text-center p-3 rounded-lg bg-white text-gray-700 font-bold cursor-pointer text-lg">Details</p>
                     </a>
                 ))}    
