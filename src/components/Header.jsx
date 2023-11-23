@@ -11,12 +11,12 @@ const Header = () => {
         />
         <div className="w-full h-screen absolute top-0 left-0 bg-blue-800/30" >
         <div className="max-w-[700px] m-auto h-full w-full flex flex-col justify-center  items-center ">
-            <h1 className="sm:text-5xl text-4xl font-bold text-gray-200 text-center">I'm Kevin Rice</h1>
+            <h1 className="sm:text-5xl text-4xl font-bold text-gray-200 text-center">I'm Kevin Rice,</h1>
             <h2 className="flex sm:text-3xl text-gray-200">
             <TypeAnimation ////////////// creates the typing animation ////////////////////////////////////////////////////////////////////////////////////////////
                 splitter={(str) => str.split(/(?= )/)} // 'Lorem ipsum dolor' -> ['Lorem', ' ipsum', ' dolor']
                 sequence={[
-                  'and an aspiring Full Stack Developer, inspired to learn and grow. My skills were developed at The University Of Central Florida Coding Bootcamp, where I learned to build full stack applications using React, Node, Express, and MongoDB. The pace of technology fascinates me and I enjoy learning new skills and building unique apps! The course was challenging and taught me the best practices and efficient time management in order to prepare me for working as a Web Development Engineer. I am currently looking for a position as a Full Stack Developer. ',
+                  'an aspiring Full Stack Developer, inspired to learn and grow. My skills were developed at The University Of Central Florida Coding Bootcamp, where I learned to build full stack applications using React, Node, Express, and MongoDB. The pace of technology fascinates me and I enjoy learning new skills and building unique apps! The course was challenging and taught me the best practices and efficient time management in order to prepare me for working as a Web Development Engineer. I am currently looking for a position as a Full Stack Developer. ',
                   6000,
                   '',
                 ]}
