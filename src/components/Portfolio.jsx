@@ -15,7 +15,7 @@ const Portfolio = () => {
                 Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maxime nisi incidunt pariatur eveniet animi atque facere! Dolores asperiores ratione nam fugit recusandae fuga soluta, deleniti ab praesentium quisquam qui quas!
             </p>
             <div className="grid sm:grid-cols-2 gap-12">
-                <PortfolioItem img={grabImg} title="Grab My Password App" urls={[]} />
+                <PortfolioItem img={grabImg} title="Grab My Password App" urls={["https://grab-my-password-23e7faf05060.herokuapp.com/"]} />
                 <PortfolioItem img={reelImg} title="Reel Tracks App" urls={[]} />
                 <PortfolioItem img={textImg} title="PWA Text Editor App" urls={[]} />
                 <PortfolioItem img={passwordgenImg} title="Pass Genie" urls={[]} />
